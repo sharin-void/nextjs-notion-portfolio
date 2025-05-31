@@ -87,10 +87,10 @@
 }
 
 .linkedin .actionBgPane {
-  background: #0077b5;
+  background: #09f2f6;
 }
 .linkedin:hover {
-  border-color: #0077b5;
+  border-color: #09f2f6;
 }
 
 .github .actionBgPane {
@@ -98,6 +98,13 @@
 }
 .github:hover {
   border-color: #c9510c;
+}
+
+.vimeo .actionBgPane {
+  background: #09f2f6;
+}
+.vimeo:hover {
+  border-color: #09f2f6;
 }
 
 .youtube .actionBgPane {

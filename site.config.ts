@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Pportfolio',
+  name: 'Portfolio',
   domain: 'lenazav.com',
   author: 'Lena Zav',
 
@@ -17,16 +17,17 @@ export default siteConfig({
   description: 'Video Editor and Multimedia Designer',
 
   // social usernames (optional)
-  // twitter: 'transitive_bs',
-  // github: 'transitive-bullshit',
+  // twitter: '#',
+  // github: '#',
   linkedin: 'lena-zav',
+  vimeo: 'lenazavx',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
+  defaultPageIcon: 'https://img.notionusercontent.com/s3/prod-files-secure%2F4a49576c-46dd-461a-9dbd-be4c3ffccec8%2F4281ff0a-fe0c-425c-a2a5-eda62cf7a9c6%2Fprofile-cv-circle.png/freeze?exp=1748782498&sig=56aLYobeCG0cqIyN6abzolChhLxbeI5kZlcRBQiqYgw&id=20433906-fd95-80ad-977f-e9d37799ae6f&table=block',
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
@@ -50,16 +51,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  // navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About',
-      pageId: '20433906fd9581b99e90efb17675a2da'
-    },
-    {
-      title: 'Contact',
-      pageId: '20433906fd9581cb8fc9cdfa4a9c9ffc'
-    }
-  ]
-})
+  navigationStyle: 'default'
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //  {
+  //    title: 'About',
+  //    pageId: '20433906fd9581b99e90efb17675a2da'
+  //  },
+  //  {
+  //    title: 'Contact',
+  //    pageId: '20433906fd9581cb8fc9cdfa4a9c9ffc'
+  //  }
+  //]
+}) 
