@@ -44,14 +44,14 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-     '/about': '20433906fd9581b99e90efb17675a2da',
-     '/contact': '20433906fd9581cb8fc9cdfa4a9c9ffc'
-   }
+     '/resume': '20433906fd9581b99e90efb17675a2da',
+     '/contact-me': '20433906fd9581cb8fc9cdfa4a9c9ffc'
+   },
   // pageUrlOverrides: ,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  // navigationStyle: 'default'
+  // navigationStyle: 'default',
   navigationStyle: 'custom',
   navigationLinks: [
    {
