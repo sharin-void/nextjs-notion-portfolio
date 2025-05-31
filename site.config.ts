@@ -2,11 +2,11 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '20433906fd9580ad977fe9d37799ae6f',
+  rootNotionPageId: '204b543ea2e481429290f1d73b217e9f',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: 'e7cb543e-a2e4-81eb-9cc4-00037e7627aa',
 
   // basic site info (required)
   name: 'Portfolio',
@@ -44,8 +44,8 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-     '/resume': '20433906fd9581b99e90efb17675a2da',
-     '/contact-me': '20433906fd9581cb8fc9cdfa4a9c9ffc'
+     '/about': '204b543ea2e481d5a3bae439d217b2f5',
+     '/contact': '204b543ea2e4818f995fc8f4c7ae4dc2'
    },
   // pageUrlOverrides: ,
 
@@ -56,11 +56,11 @@ export default siteConfig({
   navigationLinks: [
    {
      title: 'About',
-     pageId: '20433906fd9581b99e90efb17675a2da'
+     pageId: '204b543ea2e481d5a3bae439d217b2f5'
    },
    {
       title: 'Contact',
-      pageId: '20433906fd9581cb8fc9cdfa4a9c9ffc'
+      pageId: '204b543ea2e4818f995fc8f4c7ae4dc2'
     }
   ]
 }) 
