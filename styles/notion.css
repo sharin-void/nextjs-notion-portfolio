@@ -26,9 +26,9 @@
   --notion-max-width: 900px;
 }
 
-/* .tags-page .notion-collection-header {
+.tags-page .notion-collection-header {
   display: none;
-} */
+}
 
 .tags-page .notion-gallery {
   padding-top: 2em;
@@ -231,10 +231,10 @@
   }
 }
 
-.notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
+/*.notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
   justify-content: center;
   padding: 2em;
-}
+}*/
 
 .notion-code {
   background: rgba(249, 250, 251, 1);
@@ -372,13 +372,13 @@
   overflow: unset;
 }
 
-.notion-block-f382a57807bc40779860eb079d0144f2 img.medium-zoom-image {
+/*.notion-block-f382a57807bc40779860eb079d0144f2 img.medium-zoom-image {
   border-radius: 8px;
   box-shadow: 4px 4px 24px rgb(0 0 0 / 21%);
-}
-.notion-block-f382a57807bc40779860eb079d0144f2 span {
+}*/
+/*.notion-block-f382a57807bc40779860eb079d0144f2 span {
   overflow: visible !important;
-}
+}*/
 
 /* if you don't want rounded page icon images, remove this */
 .notion-page-icon-hero.notion-page-icon-image {
@@ -413,13 +413,13 @@
   border-image-slice: 1;
 }
 
-.notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-column {
+/*.notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-column {
   padding: 0;
-}
+}*/
 
-.notion-block-260baa77f1e1428b97fb14ac99c7c385 {
+/*.notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
-}
+}*/
 
 .notion-search .searchBar {
   box-shadow: var(--fg-color-0) 0px 1px 0px;
@@ -437,7 +437,7 @@
   align-items: center;
 }
 
-.notion-block-dfc7f709ae3e42c69292f6543d5586f0 .notion-collection-header {
+/*.notion-block-dfc7f709ae3e42c69292f6543d5586f0 .notion-collection-header {
   display: none;
 }
 
@@ -476,4 +476,4 @@
   .notion-page-icon-hero.notion-page-icon-image
   span {
   border-radius: unset;
-}
+}*/
