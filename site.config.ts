@@ -45,7 +45,25 @@ export default siteConfig({
   //
   pageUrlOverrides: {
      '/about': '204b543ea2e481d5a3bae439d217b2f5',
-     '/contact': '204b543ea2e4818f995fc8f4c7ae4dc2'
+     '/contact': '204b543ea2e4818f995fc8f4c7ae4dc2',
+     'true-crime-recaps': '204b543ea2e4818680a6e526b26d423d',
+     'startalk': '204b543ea2e4813cba45d84ed785a3b3',
+     'video-edits': '204b543ea2e48125b49cf06251316888',
+     'mechanical-spider': '204b543ea2e48190a1e2ccf9e16701a8',
+     'headphones': '204b543ea2e481658a14ee47199579f4',
+     'after-effects-animations': '204b543ea2e481739f71e8d9c5cccc29',
+     'snapchat-content': '204b543ea2e481a7a8b2eab1b8ac0688',
+     'ai-tools-video-test': '204b543ea2e481d3bdcff5dcf94865d6',
+     'infographic-video': '204b543ea2e481e082d1dbda8c8e99f8',
+     'fl-chtlinge-willkommen': '204b543ea2e48140bcb9fd063a38f664',
+     'ramen': '204b543ea2e4811bb8f7f960a673f6a0',
+     'dclass-conference-berlin-2015': '204b543ea2e481fdad70f13c2c2158fa',
+     'alfer-pinturas': '204b543ea2e481eb822bfa07b7f15fa0',
+     'vant': '204b543ea2e481ea8282dfecc7cee0d2',
+     '8percent': '204b543ea2e4816ea1e7fa1d712a3cfa',
+     'food-truck': '204b543ea2e4812f82defa22497879b0',
+     'william-zanotta-couch': '204b543ea2e481189f5ffeec5c49f230',
+     'graphic-design': '204b543ea2e48154be41e9cffa4859c7'
    },
   // pageUrlOverrides: ,
 
