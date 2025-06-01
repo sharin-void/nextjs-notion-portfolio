@@ -29,6 +29,7 @@ import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
 import styles from './styles.module.css'
+import { Analytics } from '@vercel/analytics/next'
 // import { GitHubShareButton } from './GitHubShareButton'
 
 // -----------------------------------------------------------------------------
@@ -291,6 +292,7 @@ export function NotionPage({
         footer={footer}
       />
 
+      <Analytics />
     </>
   )
 }
